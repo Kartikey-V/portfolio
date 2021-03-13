@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E;
+}
+h1{
+    margin-top: 50px;
+    margin-bottom:10px ;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+    font-size: 90px;
+    line-height: 2;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+.profile img{
+    height: 200px;
+    width: 200px;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+    font-size: 25px;
+}
+a{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: #EAF6F6;
+}
+p{
+    color: #663f3f;
+    font-size: 20px;
+    line-height: 2;
+}
+.top-container{
+    position: relative;
+    padding-top:100px ;
+    background-color: #E4F9F5;
+    height: 90vh;
+}
+.bottom-cloud{
+    position: absolute;
+    right: 43%;
+    bottom: 35%;
+}
+.mountain{
+    position: absolute;
+    height: 450px;
+    bottom: 0;
+    right: 10%;
+}
+.top-cloud{
+    position: absolute;
+    right: 15%;
+    top: 20%;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+}
+.web-development{
+    float:left;
+    margin-right: 30px;
+}
+.programming{
+    float:right;
+    margin-left: 30px; 
+}
+hr{
+    width: 5%;
+    border-style: none;
+    border-bottom: dotted;
+    border-width: 10px;
+    border-color: #EAF6F6;
+    margin: 50px auto;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+}
+.credits{
+    color: #EAF6F6;
+    margin: 0;
+}
+.btn{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    background-color: #11999E;
+    border-radius: 5px;
+    border-width: 0;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: white;
+    color: #11999E;
+}
+.profile{
+    padding: 30px 0 0 0;
+}
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+.hello{
+    display: inline-block;
+}
+.top-container table{
+    text-align: center;
+    margin: 0 auto;
+}
+.hi {
+    vertical-align: text-top;
+    text-align: left;
+}
+ li{
+    display: inline-block;
+    list-style-type:none;
+    margin: 5px 15px;
+    text-align: center;
+}
+.skill-icons p{
+   font-size: 1rem;
+}
+.skill-icons i:hover{
+    color: rgb(78, 60, 236);
+ }
+ .form-container{
+    width: 30%;
+    margin: 0 auto;
+ }
+ .middle-container{
+     background-color: #fbfff9;
+ }
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #11999E;
+    border-radius: 4px; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }

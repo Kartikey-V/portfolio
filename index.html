@@ -1,83 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>✲Kartikey's Personal Site</title>
-    </head>
-    <body>
-        <table cellspacing="20">
-            <tr>
-                <td>
-                    <img src="Kartikey.png" alt="Kartikey's Profile Picture" width="160" height="200">
-                </td>
-                <td>
-                    <h1>Kartikey Vashisht</h1>
-                    <p> <em> B.Tech CSE | AWS Certified Cloud Practitioner | 2* CodeChef </em> </p>
-                    <p>I am a student at Amity University, Noida persuing B.Tech in Computer Science & Engineering. I love to explore new things and currently i am working on learning Web-Development</p>
-                </td>
-            </tr>
-        </table>
+<head>
+    <meta charset="UTF-8">
+    <title>Kartikey Vashisht</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/788a2099c9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="top-container">
+      <table>
+        <tbody>
+          <tr>
+            <td class="hi">
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+              <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_M9p23l.json" class="hello" background="transparent"  speed="1"  style="width: 600px; height: 600px;"  loop  autoplay></lottie-player>
+            </td>
+            <td>
+              <img class="top-cloud" src="Images/cloud.png" alt="cloud-image">
+              <h1>I'm Kartikey</h1>
+              <h2>a Programmer and a Web Developer</h2>
+              <img class="bottom-cloud" src="Images/cloud.png" alt="cloud-image">
+              <img class="mountain" src="Images/mountain.png" alt="">
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+          <img src="Images/Kartikey-Circle.png" alt="My-Photo">
+          <h2>Hello.</h2>
+          <p class="intro">I am a student at Amity University, Noida persuing B.Tech in Computer Science & Engineering. <br>I love to explore new things and currently i am working on learning Web-Development.</p>
+        </div>
         <hr>
-        <h3>Education</h3>
-            <ul>
-                <li>Amity School of Engineering and Technology, Noida</li>
-                    <ul>
-                        <li>B.Tech CSE</li>
-                        <li>8.04 CGPA</li>
-                        <li>2018-22</li>
-                    </ul>
-                <li>G. D. Goenka Public School, Vasant Kunj</li>
-                    <ul>
-                        <li>Class XII (CBSE - Science)</li>
-                        <li>78.6 %</li>
-                        <li>2017-18</li>
-                    </ul>
-                <li>G. D. Goenka Public School, Vasant Kunj</li>
-                    <ul>
-                        <li>Class X (CBSE)</li>
-                        <li>8.4 CGPA</li>
-                        <li>2015-16</li>
-                    </ul>
+        <div class="skills">
+          <h2>My Skills.</h2>
+          <div class="skill-row">
+            <img class="web-development" src="Images/web-development.png" alt="web-development">
+            <h3>Web Development</h3>
+            <p>A budding Web Developer, learning something new everyday. Love what i do!</p>
+            <ul class="skill-icons">
+              <li> <i class="fab fa-html5 fa-3x"></i><p>HTML-5</p> </li> 
+              <li> <i class="fab fa-css3-alt fa-3x"></i><p>CSS-3</p> </li>
+              <li> <i class="fab fa-bootstrap fa-3x"></i><p>Bootstrap</p> </li>
+              <li> <i class="fab fa-js-square fa-3x"></i><p>JavaScript</p> </li>
+              <li> <i class="fab fa-aws fa-3x"></i><p>AWS</p> </li>
             </ul>
+          </div>
+          <div class="skill-row">
+            <img class="programming" src="Images/computer.png" alt="">
+            <h3>Programming</h3>
+            <p>I like to code as it fun and helps build problem solving skills</p>
+            <ul class="skill-icons">
+              <li> <i class="fab fa-python fa-3x"></i><p>Python</p> </li> 
+              <li> <i class="fab fa-cuttlefish fa-3x"></i><p>C++</p> </li>
+            </ul>
+          </div>
+        </div>
         <hr>
-            <h3>Work Experience</h3>
-            <table cellspacing="10">
-                <thead>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Jan-21 to Feb-21</td> 
-                        <td>Web Design Intern at Deebeez</td>
-                    </tr> 
-                </tbody>
-            </table>
-        <hr>
-            <h3>Skills</h3>
-                <table cellspacing="10">
-                    <tbody>
-                        <tr>
-                            <td> Web Development </td>
-                            <td>🌟🌟🌟🌟🌟</td>
-                        </tr>  
-                         <tr>
-                            <td> Machine Learning </td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td> Cloud Computing </td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                        <tr>
-                            <td> Photoshop </td>
-                            <td>🌟🌟🌟🌟</td>
-                        </tr>
-                    </tbody>
-                </table>
-            <hr>
-        <h3> <a href="hobbies.html">Hobbies </a> <br> <a href="contact.html">Contact Me</a></h3>
-            
-       
-    </body>
+        <div class="contact-me">
+          <h2>Get In Touch</h2>
+          <h3>WANT TO DISCUSS ABOUT PROJECTS OR LIFE?</h3>
+          <div class="form-container">
+            <form action="mailto:kartikeyavashisht621@gmail.com?subject=Query from Website" method="POST" enctype="text/plain">
+              <label for="">Your Name:</label>
+              <input type="text" name="senderName" id=""> <br>
+              <label for="">Message:</label>
+              <textarea name="senderMessage" id="" cols="20" rows="5"></textarea><br>
+              <input type="submit" class="btn">
+            </form>
+            <br>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bottom-container">
+        <ul>
+          <li> <a href="https://github.com/Kartikey-V" target="_blank"><i class="fab fa-github fa-2x"></i> </a> </li>
+          <li> <a href="https://www.linkedin.com/in/kartikey-vashisht21/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i> </a> </li>
+          <li> <a href="mailto: kartikeyavashisht621@gmail.com" target="_blank"><i class="fas fa-at fa-2x"></i> </a> </li>
+      </ul>
+      <p class="credits">© 2021 Kartikey Vashisht.</p>
+      </div>    
+</body>
 </html>
